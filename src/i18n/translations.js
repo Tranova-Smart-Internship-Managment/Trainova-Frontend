@@ -6,7 +6,11 @@ export const translations = {
 
     // Nav
     navDashboard: "لوحة التحكم",
+<<<<<<< HEAD
     navRegister: "التسجيل",
+=======
+    navRegister: "تسجيل حساب طالب",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     langToggle: "English",
 
     // Roles
@@ -148,6 +152,7 @@ export const translations = {
     qaAssignSupervisor: "تعيين مشرف",
     qaPerformanceReports: "تقارير الأداء",
 
+<<<<<<< HEAD
     // Register page: tabs
     tabStudent: "طالب",
     tabProvider: "مؤسسة تدريب",
@@ -159,6 +164,28 @@ export const translations = {
     stepPassword: "كلمة المرور",
     stepActivation: "التفعيل",
     optional: "(اختياري)",
+=======
+    // Registration form
+    regTitle: "إنشاء حساب طالب جديد",
+    stepPersonal: "البيانات الشخصية",
+    stepPassword: "كلمة المرور",
+    stepActivation: "التفعيل",
+    labelStudentId: "الرقم الطلابي",
+    labelFullName: "الاسم الكامل",
+    labelEmail: "البريد الإلكتروني الجامعي",
+    labelPassword: "كلمة المرور",
+    labelConfirmPassword: "تأكيد كلمة المرور",
+    labelMajor: "التخصص",
+    labelPhone: "رقم الهاتف",
+    optional: "(اختياري)",
+    placeholderStudentId: "مثال: 20230965",
+    placeholderFullName: "الاسم الثلاثي",
+    placeholderEmail: "student@alazhar.edu.ps",
+    placeholderPassword: "8+ أحرف، أرقام، رموز",
+    placeholderConfirmPassword: "أعد كتابة كلمة المرور",
+    placeholderPhone: "+970 5X-XXX-XXXX",
+    selectMajor: "-- اختر تخصصك --",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     termsText: "أوافق على",
     termsAnd: "وسياسة",
     termsOfService: "الشروط والأحكام",
@@ -167,6 +194,7 @@ export const translations = {
     autofill: "ملء تلقائي",
     cancel: "إلغاء",
     createAccount: "إنشاء حساب",
+<<<<<<< HEAD
     errTerms: "يجب الموافقة على الشروط للمتابعة",
 
     labelPassword: "كلمة المرور",
@@ -174,12 +202,17 @@ export const translations = {
     placeholderPassword: "8+ أحرف، أرقام، رموز",
     placeholderConfirmPassword: "أعد كتابة كلمة المرور",
 
+=======
+
+    // Strength hints
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     strengthEmpty: "أدخل كلمة المرور",
     strengthVeryWeak: "ضعيفة جدًا",
     strengthMedium: "متوسطة — أضف رموزًا",
     strengthStrong: "قوية",
     strengthVeryStrong: "قوية جدًا ✓",
 
+<<<<<<< HEAD
     errPwRequired: "كلمة المرور مطلوبة",
     errPwWeak: "يجب أن تحتوي على 8 أحرف، حرف كبير، رقم، ورمز",
     errPw2Required: "تأكيد كلمة المرور مطلوب",
@@ -212,6 +245,9 @@ export const translations = {
     placeholderPhone: "+970 5X-XXX-XXXX",
     selectMajor: "-- اختر تخصصك --",
 
+=======
+    // Validation errors
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     errSidRequired: "الرقم الطلابي مطلوب",
     errSidFormat: "الرقم الطلابي يجب أن يكون بين 7 و10 أرقام",
     errSidTaken: "الرقم الطلابي مسجل مسبقًا. هل نسيت كلمة المرور؟",
@@ -224,6 +260,7 @@ export const translations = {
     errEmailTaken: "البريد الإلكتروني مستخدم بالفعل. هل نسيت كلمة المرور؟",
     okEmail: "بريد إلكتروني صالح",
     errMajorRequired: "التخصص مطلوب",
+<<<<<<< HEAD
     errPhoneFormat: "صيغة رقم الهاتف غير صالحة",
 
     toastSubmittingTitle: "جارٍ إنشاء الحساب...",
@@ -329,6 +366,32 @@ export const translations = {
     adminReviewNote: "حسابك قيد المراجعة من فريق Trainova للتحقق من صلاحياتك الإدارية.",
     toastAdminSubmittingTitle: "جارٍ إنشاء الحساب الإداري...",
     toastAdminSuccessMsg: "تم إرسال رابط التفعيل. حسابك قيد المراجعة.",
+=======
+    errPwRequired: "كلمة المرور مطلوبة",
+    errPwWeak: "يجب أن تحتوي على 8 أحرف، حرف كبير، رقم، ورمز",
+    errPw2Required: "تأكيد كلمة المرور مطلوب",
+    errPw2Mismatch: "كلمتا المرور غير متطابقتين",
+    okPw2: "كلمتا المرور متطابقتان",
+    errPhoneFormat: "صيغة رقم الهاتف غير صالحة",
+    errTerms: "يجب الموافقة على الشروط للمتابعة",
+
+    // Toasts
+    toastSubmitErrTitle: "لا يمكن إكمال التسجيل",
+    toastSubmitErrMsg: "يرجى مراجعة:",
+    toastSubmittingTitle: "جارٍ إنشاء الحساب...",
+    toastSubmittingMsg: "يرجى الانتظار لحظة",
+    toastSuccessTitle: "تم بنجاح!",
+    toastSuccessMsg: "تم إرسال رابط التفعيل إلى بريدك الإلكتروني",
+    toastAutofillTitle: "تم الملء التلقائي",
+    toastAutofillMsg: "اضغط إنشاء حساب للمتابعة",
+
+    // Success view
+    successTitle: "تم إنشاء الحساب بنجاح!",
+    successSubPrefix: "تم إرسال رابط تفعيل إلى",
+    successSubSuffix: "يرجى التحقق من صندوق الوارد وتفعيل حسابك خلال 24 ساعة.",
+    activationValid: "رابط التفعيل صالح لمدة 24 ساعة فقط",
+    registerAnother: "تسجيل حساب آخر",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
 
     // Universities
     universities: "جامعة الأزهر - غزة والجامعة الإسلامية - غزة",
@@ -341,7 +404,11 @@ export const translations = {
 
     // Nav
     navDashboard: "Dashboard",
+<<<<<<< HEAD
     navRegister: "Registration",
+=======
+    navRegister: "Student Registration",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     langToggle: "العربية",
 
     // Roles
@@ -483,6 +550,7 @@ export const translations = {
     qaAssignSupervisor: "Assign Supervisor",
     qaPerformanceReports: "Performance Reports",
 
+<<<<<<< HEAD
     // Register page: tabs
     tabStudent: "Student",
     tabProvider: "Training Provider",
@@ -494,6 +562,28 @@ export const translations = {
     stepPassword: "Password",
     stepActivation: "Activation",
     optional: "(optional)",
+=======
+    // Registration form
+    regTitle: "Create New Student Account",
+    stepPersonal: "Personal Info",
+    stepPassword: "Password",
+    stepActivation: "Activation",
+    labelStudentId: "Student ID",
+    labelFullName: "Full Name",
+    labelEmail: "University Email",
+    labelPassword: "Password",
+    labelConfirmPassword: "Confirm Password",
+    labelMajor: "Major",
+    labelPhone: "Phone Number",
+    optional: "(optional)",
+    placeholderStudentId: "e.g. 20230965",
+    placeholderFullName: "Full name",
+    placeholderEmail: "student@alazhar.edu.ps",
+    placeholderPassword: "8+ chars, numbers, symbols",
+    placeholderConfirmPassword: "Re-enter your password",
+    placeholderPhone: "+970 5X-XXX-XXXX",
+    selectMajor: "-- Select your major --",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     termsText: "I agree to the",
     termsAnd: "and",
     termsOfService: "Terms and Conditions",
@@ -502,6 +592,7 @@ export const translations = {
     autofill: "Autofill",
     cancel: "Cancel",
     createAccount: "Create Account",
+<<<<<<< HEAD
     errTerms: "You must agree to the terms to continue",
 
     labelPassword: "Password",
@@ -509,12 +600,17 @@ export const translations = {
     placeholderPassword: "8+ chars, numbers, symbols",
     placeholderConfirmPassword: "Re-enter your password",
 
+=======
+
+    // Strength hints
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     strengthEmpty: "Enter your password",
     strengthVeryWeak: "Very weak",
     strengthMedium: "Medium — add symbols",
     strengthStrong: "Strong",
     strengthVeryStrong: "Very strong ✓",
 
+<<<<<<< HEAD
     errPwRequired: "Password is required",
     errPwWeak: "Must contain 8+ chars, an uppercase letter, a number, and a symbol",
     errPw2Required: "Please confirm your password",
@@ -547,6 +643,9 @@ export const translations = {
     placeholderPhone: "+970 5X-XXX-XXXX",
     selectMajor: "-- Select your major --",
 
+=======
+    // Validation errors
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
     errSidRequired: "Student ID is required",
     errSidFormat: "Student ID must be 7–10 digits",
     errSidTaken: "Student ID already registered. Forgot your password?",
@@ -559,6 +658,7 @@ export const translations = {
     errEmailTaken: "Email already in use. Forgot your password?",
     okEmail: "Valid email",
     errMajorRequired: "Major is required",
+<<<<<<< HEAD
     errPhoneFormat: "Invalid phone number format",
 
     toastSubmittingTitle: "Creating account...",
@@ -664,6 +764,32 @@ export const translations = {
     adminReviewNote: "Your account is under review by the Trainova team to verify your administrative permissions.",
     toastAdminSubmittingTitle: "Creating admin account...",
     toastAdminSuccessMsg: "Activation link sent. Your account is pending review.",
+=======
+    errPwRequired: "Password is required",
+    errPwWeak: "Must contain 8+ chars, an uppercase letter, a number, and a symbol",
+    errPw2Required: "Please confirm your password",
+    errPw2Mismatch: "Passwords do not match",
+    okPw2: "Passwords match",
+    errPhoneFormat: "Invalid phone number format",
+    errTerms: "You must agree to the terms to continue",
+
+    // Toasts
+    toastSubmitErrTitle: "Cannot complete registration",
+    toastSubmitErrMsg: "Please review:",
+    toastSubmittingTitle: "Creating account...",
+    toastSubmittingMsg: "Please wait a moment",
+    toastSuccessTitle: "Success!",
+    toastSuccessMsg: "An activation link has been sent to your email",
+    toastAutofillTitle: "Autofill complete",
+    toastAutofillMsg: "Press Create Account to continue",
+
+    // Success view
+    successTitle: "Account Created Successfully!",
+    successSubPrefix: "An activation link has been sent to",
+    successSubSuffix: "Please check your inbox and activate your account within 24 hours.",
+    activationValid: "Activation link is valid for 24 hours only",
+    registerAnother: "Register Another Account",
+>>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
 
     // Universities
     universities: "Al-Azhar University - Gaza and the Islamic University - Gaza",
