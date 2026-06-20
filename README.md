@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # Tranvia – منصة التدريب الميداني
-=======
-# Trainova – منصة التدريب الميداني
->>>>>>> c43fa1b97788e66ffa2efdea1446c4ed68760f61
+
+
 
 مشروع React + Vite + Tailwind CSS لمنصة Tranvia.
 
@@ -32,7 +30,6 @@ tranvia-app/
         ├── Dashboard.jsx   # لوحة التحكم (4 أدوار: طالب، جهة تدريب، مشرف، إدارة)
         └── Register.jsx    # نموذج تسجيل حساب طالب (US-001)
 ```
-
 
 
 
